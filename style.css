@@ -108,7 +108,7 @@ button:hover {
    border: none;
    outline: none;
    background-color: transparent;
-   color: #fdf3ff;
+   color: #fbefff;
 }
 
 #task-list-parent .task input.edit-mode {
