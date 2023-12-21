@@ -6,13 +6,11 @@ const taskContainer = document.getElementById("task-list-parent");
 // display message in the task container on load
 let span = document.createElement("span");
 if (taskContainer.textContent.trim().length === 0) {
-    span.innerHTML = "No task to display, Add Task";
+    span.innerHTML = "No task to display, Add task";
     span.style.fontWeight = "bold";
     span.style.color = "#6d0596";
     taskContainer.appendChild(span); 
 } 
-
-
 
 // Event listener for the "Add Task" button
 inputBtn.addEventListener("click", () => {
